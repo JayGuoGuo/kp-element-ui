@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div class="kp-table-container">
+    <div class="tool-bar" v-if="true">
+    
+    </div>
     <el-table v-bind="$attrs">
       <slot></slot>
     </el-table>
@@ -15,4 +18,11 @@ export default {
 }
 </script>
 <style lang='scss' scoped>
+.kp-table-container {
+  height: '100%'
+
+  .tool-bar {
+    display: flex
+  }
+}
 </style>
