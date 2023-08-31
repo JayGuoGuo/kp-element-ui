@@ -17,9 +17,9 @@ export default {
   methods: {}
 }
 </script>
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .kp-table-container {
-  height: '100%'
+  height: '100%';
 
   .tool-bar {
     display: flex
